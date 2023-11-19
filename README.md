@@ -7,7 +7,7 @@ Telegram: t.me/rkatarine
 ## Summary
 Web developer with more than 7 years experience. Adept in all stages of advanced web development.  Create high-tech products from available materials. Provide the launch of applications without the human factors.
 
-## Work expiriesnce
+## Work expirience
 ### [SberMarket](https://sbermarket.ru/)
 *Senior Frontend Developer*  
 Oct 2021 - Present  (2 years)
