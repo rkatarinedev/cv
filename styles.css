@@ -1,17 +1,85 @@
 /** basic normalisation */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -46,7 +114,6 @@ main {
   max-width: 550px;
   margin: 0 auto;
   padding: 2em 1em;
-  /*transform: translate3d(0, -25%, 0);*/
 }
 
 img {
@@ -58,29 +125,36 @@ img {
 }
 
 h1 {
-  font-size: 32px;
-}
-
-h2 {
-  font-size: 20px;
-  margin-top: 0.5em;
+  font-size: 2em;
+  border-bottom: 1px solid #d8dee4;
   margin-bottom: 0.5em;
 }
 
+h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+
 h3 {
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
+  margin-top: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+h3+p {
+  margin-bottom: 0.2em;
 }
 
 section {
   margin-top: 1em;
 }
 
-section + section {
+section+section {
   margin-top: 1em;
 }
 
-section p, section ul {
+section p,
+section ul {
   margin-top: 0.25em;
 }
 
@@ -96,12 +170,4 @@ a {
 
 a:hover {
   color: #0A3069;
-}
-
-h3 + p + p {
-  margin-top: 0.25em;
-}
-
-div p {
-  margin-top: 0.25em;
 }
